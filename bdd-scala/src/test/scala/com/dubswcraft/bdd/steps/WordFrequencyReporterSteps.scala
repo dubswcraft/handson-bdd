@@ -4,7 +4,6 @@ import com.dubswcraft.bdd.WordFrequencyReporter
 import cucumber.api.scala.{ScalaDsl, EN}
 import org.scalatest.Matchers
 
-
 class WordFrequencyReporterSteps extends ScalaDsl with EN with Matchers {
 
   var listOfWords = ""
