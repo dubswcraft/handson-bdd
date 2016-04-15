@@ -1,5 +1,5 @@
 package com.dubswcraft.bdd
 
 class WordFrequencyReporter {
-  def calculate(): String = ""
+  def calculate(count: Int, listOfWords: String): String = ""
 }

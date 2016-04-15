@@ -1,5 +1,6 @@
-package com.dubswcraft.bdd
+package com.dubswcraft.bdd.steps
 
+import com.dubswcraft.bdd.WordFrequencyReporter
 import cucumber.api.scala.{ScalaDsl, EN}
 import org.scalatest.Matchers
 
@@ -21,7 +22,7 @@ class WordFrequencyReporterSteps extends ScalaDsl with EN with Matchers {
   }
 
   When( """^the word frequency program is executed""") { () =>
-    actualResults = new WordFrequencyReporter().calculate()
+    actualResults = new WordFrequencyReporter().calculate(countSummary, listOfWords)
   }
 
   Then("""^the top (\d+) most frequently occurring words and frequency are printed$"""){ (count:Int) =>
