@@ -30,7 +30,7 @@ class WordFrequencyReporterSpec extends WordSpec with Matchers {
 
     }
 
-    "return an empty report and throw an IllegalArgumentException when a negative value for N is passed in" in {
+    "throw an IllegalArgumentException when a negative value for N is passed in" in {
       val wordsFrequencyBuilder = new WordFrequencyReporter()
 
       val wordsList = "united, states, america, north, america, south, america, south, africa," +
