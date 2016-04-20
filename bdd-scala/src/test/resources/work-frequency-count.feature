@@ -8,7 +8,7 @@ Feature: Word and frequency sorter
     And the results should be <output>
 
   Examples:
-    | list                                                                          | count | output                      |
-    | united, states, america, north, america, south, america, africa, north, korea | 3     | 3 america, 2 north, 1 south |
+    | list                                                          | count | output                       |
+    | america, north, america, south, america, africa, north, korea | 3     | 3 america, 2 north, 1 africa |
 
 
