@@ -1,0 +1,18 @@
+group 'com.dubswcraft'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile group: 'org.jbehave', name: 'jbehave-core', version: '4.0.5'
+    testCompile group: 'info.cukes', name: 'cucumber-java8', version: '1.2.3'
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.3'
+    testCompile group: 'info.cukes', name: 'cucumber-picocontainer', version: '1.2.3'
+}
