@@ -17,6 +17,7 @@ target
 
 # IntelliJ
 .idea
+.iml
 
 # ENSIME
 .ensime
@@ -34,3 +35,8 @@ snapshots
 
 # Cucumber files
 cucumber**
+
+# Gradle
+gradle*
+.gradle
+*.gradle
