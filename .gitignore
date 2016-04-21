@@ -34,3 +34,6 @@ snapshots
 
 # Cucumber files
 cucumber**
+
+# Gradle
+gradle*
