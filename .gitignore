@@ -17,6 +17,7 @@ target
 
 # IntelliJ
 .idea
+.iml
 
 # ENSIME
 .ensime
@@ -37,3 +38,4 @@ cucumber**
 
 # Gradle
 gradle*
+.gradle/

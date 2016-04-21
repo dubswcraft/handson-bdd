@@ -13,5 +13,5 @@ libraryDependencies ++= Seq (
 
 enablePlugins(CucumberPlugin)
 
-CucumberPlugin.glue := "com/dubswcraft/bdd/"
+CucumberPlugin.glue := "com/dubswcraft/bdd/steps"
 
